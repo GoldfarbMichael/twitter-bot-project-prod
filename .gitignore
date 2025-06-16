@@ -1,0 +1,25 @@
+#Ignore main data folder
+data/
+
+#Ignore specific model result and training output folders
+result_analysis/model_data/
+Numeric_Features_model/trained-model/
+userdesc-LM-model/trained-model/
+userdesc-LM-model/tokenized_data_train_balanced/
+
+#Python-related ignores
+pycache/
+*.py[cod]
+*.ipynb_checkpoints/
+
+#Environment & dependency folders
+.venv/
+env/
+venv/
+
+#IDE-specific files (PyCharm)
+.idea/
+
+#OS metadata files
+#.DS_Store
+Thumbs.db
